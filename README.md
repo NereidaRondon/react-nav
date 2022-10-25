@@ -25,27 +25,19 @@ export default function AppNavBar() {
     <nav className="nav">
       <h2>New Site</h2>
       <ul>
+        <li> 
+          <NavLink to="/" end> Home </NavLink> 
+        </li>
+        
+        <li> 
+          <NavLink to="/about" className={({ isActive }) => (isActive ? activeClassName : '')}> About </NavLink>
+        </li>
+
         <li>
-          <NavLink to="/" end>
-            Home
+          <NavLink to="/contact" className={({ isActive }) => (isActive ? activeClassName : '')}> Contact
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/about"
-            className={({ isActive }) => (isActive ? activeClassName : '')}
-          >
-            About
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/contact"
-            className={({ isActive }) => (isActive ? activeClassName : '')}
-          >
-            Contact
-          </NavLink>
-        </li>
+        
       </ul>
     </nav>
   );
@@ -57,7 +49,6 @@ export default function AppNavBar() {
 ```
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-
 import Home from './Home';
 import About from './About';
 import Contact from './Contact';
@@ -79,16 +70,18 @@ Make sure to include the BrowserRouter by wrapping the whole project like so:
 
 ```
 import React from 'react';
-import './App.css';
 import AppRouter from './Components/AppRouter';
 import AppNavBar from './Components/AppNavBar';
+import './App.css';
 
 export default function App() {
   return (
     <div className="App">
+
       <AppNavBar />
 
       <AppRouter />
+
     </div>
   );
 }
