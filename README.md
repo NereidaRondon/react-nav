@@ -12,8 +12,26 @@
 
 Using vite and react-router, I created a simple navbar template that can be used for any single page application.
 
-Code for Nav component:
+### Dependencies
 
+#### Vite:
+```
+npm create vite@latest
+
+npm install
+
+npm run dev
+```
+
+
+#### React-router
+```
+npm install react-router-dom@6
+```
+
+----------------------
+
+### Code for Nav component:
 ```
 import React from 'react';
 import { NavLink } from react-router';
@@ -37,14 +55,14 @@ export default function AppNavBar() {
           <NavLink to="/contact" className={({ isActive }) => (isActive ? activeClassName : '')}> Contact
           </NavLink>
         </li>
-        
+
       </ul>
     </nav>
   );
 }
 ```
 
-## Code for Router using BrowserRouter from react-router:
+### Code for Router using BrowserRouter from react-router:
 
 ```
 import React from 'react';
@@ -86,7 +104,7 @@ export default function App() {
   );
 }
 ```
-
+------------------
 <h3 align="left">Languages and Tools used in this Project:</h3>
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="45" height="45"/> </a> $~~~$ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> $~~~$ <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>  $~~~$ <a href="https://reactjs.org/docs/jsx-in-depth.html"> <img src="https://tinyurl.com/5bpva66d" alt="css3" width="45" height="45"/> </a>  $~~~$ <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a> $~~~$
  <a href="https://vitejs.dev/logo-with-shadow.png" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a></p>
