@@ -6,15 +6,21 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/nereidarondon/react-nav?style=for-the-badge)
 
-[View Website](http://NereidaRondon.com)
+[My Portfolio](http://NereidaRondon.com)
 
 # <h1>React Nav bar using React-Router</h1>
 
 Using vite and react-router, I created a simple navbar template that can be used for any single page application.
 
+![download](https://user-images.githubusercontent.com/97356401/197913109-77fefddb-b7dc-4e2d-bac3-6a3eb2bb367c.png)
+
+[Visit website](https://sugarplumfairy.netlify.app/)
+
+----------------------
+
 ### Dependencies
 
-#### Vite:
+#### Vite and Node:
 ```
 npm create vite@latest
 
@@ -29,7 +35,7 @@ npm run dev
 npm install react-router-dom@6
 ```
 
-----------------------
+
 
 ### Code for Nav component:
 ```
@@ -104,18 +110,23 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ```
 ------------------
 <h3 align="left">Languages and Tools used in this Project:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="45" height="45"/> </a> $~~~$ <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> $~~~$ <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>  $~~~$ <a href="https://reactjs.org/docs/jsx-in-depth.html"> <img src="https://tinyurl.com/5bpva66d" alt="css3" width="45" height="45"/> </a>  $~~~$ <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a> $~~~$
- <a href="https://vitejs.dev/logo-with-shadow.png" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a></p>
+<p align="left"> <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"> <img src="https://vitejs.dev/logo-with-shadow.png" alt="vite" width="40" height="40"/> </a> $~~~$
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a> $~~~$
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> $~~~$  
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> $~~~$ 
+<a href="https://reactjs.org/docs/jsx-in-depth.html"> <img src="https://tinyurl.com/5bpva66d" alt="css3" width="40" height="40"/> </a> $~~~$  
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a> $~~~$
+<a href="https://reactrouter.com/en/main"> <img src="https://user-images.githubusercontent.com/97356401/197912754-907c7c61-eaf9-4912-b979-ba3daf4a434e.svg" alt="react-router" width="45" height="45"/> </a> $~~~$ 
+</p>
 
-- JSX
-- Vite
-- React-Router
+
 
 <!-- -------------------------------------------------
 
 ### Video:
 
 [Weather Dashboard App](https://user-images.githubusercontent.com/97356401/196055500-8988c32a-f2ef-48a2-85c7-d545590214bb.webm) -->
+
 
 ---
 
