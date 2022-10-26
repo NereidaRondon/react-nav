@@ -20,7 +20,8 @@ Using vite and react-router, I created a simple navbar template that can be used
 
 ### Dependencies
 
-#### Vite and Node:
+<h4> Vite and Node:</h4>
+
 ```
 npm create vite@latest
 
@@ -30,14 +31,19 @@ npm run dev
 ```
 
 
-#### React-router
+<h4>React-router</h4>
+
 ```
 npm install react-router-dom@6
 ```
 
+----------------------
+
+### Components
 
 
-### Code for Nav component:
+<h4> Code for Nav component:</h4>
+
 ```
 import React from 'react';
 import { NavLink } from react-router';
@@ -68,7 +74,7 @@ export default function AppNavBar() {
 }
 ```
 
-### Code for Router using BrowserRouter from react-router:
+<h4> Code for Router using BrowserRouter from react-router:</h4>
 
 ```
 import React from 'react';
@@ -90,7 +96,7 @@ export default function AppRouter() {
 }
 ```
 
-Make sure to include the BrowserRouter by wrapping the whole project like so:
+<h4>Make sure to include the BrowserRouter by wrapping the whole project like so:</h4>
 
 ```
 import React from 'react';
