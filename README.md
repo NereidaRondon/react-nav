@@ -88,21 +88,19 @@ Make sure to include the BrowserRouter by wrapping the whole project like so:
 
 ```
 import React from 'react';
-import AppRouter from './Components/AppRouter';
-import AppNavBar from './Components/AppNavBar';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
 
-export default function App() {
-  return (
-    <div className="App">
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </React.StrictMode>
+);
 
-      <AppNavBar />
-
-      <AppRouter />
-
-    </div>
-  );
-}
 ```
 ------------------
 <h3 align="left">Languages and Tools used in this Project:</h3>
