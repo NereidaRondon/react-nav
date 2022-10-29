@@ -12,7 +12,9 @@
 
 Using vite and react-router, I created a simple navbar template that can be used for any single page application.
 
-![download](https://user-images.githubusercontent.com/97356401/197913109-77fefddb-b7dc-4e2d-bac3-6a3eb2bb367c.png)
+![image](https://user-images.githubusercontent.com/97356401/198838782-1665a773-0ece-4a11-860f-71fcc2bdd344.png)
+
+
 
 [Visit website](https://sugarplumfairy.netlify.app/)
 
