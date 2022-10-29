@@ -33,7 +33,7 @@ npm run dev
 ```
 
 
-<h4>React-router</h4>
+<h4>React-router:</h4>
 
 ```
 npm install react-router-dom@6
