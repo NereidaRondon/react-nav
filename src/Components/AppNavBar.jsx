@@ -6,7 +6,7 @@ export default function AppNavBar() {
 
   return (
     <nav className="nav">
-      <h2>New Site</h2>
+      <h2>Single Page</h2>
       <ul>
         <li>
           <NavLink to="/" end>
