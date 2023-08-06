@@ -46,7 +46,7 @@ npm install react-router-dom@6
 
 <h4> Code for Nav component:</h4>
 
-```
+```.jsx
 import React from 'react';
 import { NavLink } from react-router';
 
@@ -78,7 +78,7 @@ export default function AppNavBar() {
 
 <h4> Code for Router using BrowserRouter from react-router:</h4>
 
-```
+```.jsx
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Home';
@@ -100,7 +100,7 @@ export default function AppRouter() {
 
 <h4>Make sure to include the BrowserRouter by wrapping the whole project like so:</h4>
 
-```
+```.jsx
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
