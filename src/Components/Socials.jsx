@@ -16,7 +16,7 @@ export default function Socials(){
             </div>
 
             <div className="portfolio logos">
-                <a href="https://nereidarondon.com/index.html"><img src={portfolio} alt="View my Portfolio"></img></a>
+                <a href="https://nereidarondon.com"><img src={portfolio} alt="View my Portfolio"></img></a>
             </div>
 
             <div className="email logos">
